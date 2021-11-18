@@ -34,11 +34,11 @@ jobs:
         # all subsequent Dockerfile commands generate new images and the cache is not used
         # sudo docker build --no-cache --rm  -t ${name}:${version} . --file dockerfiles/${dockerfilename} 
         # sudo docker build --no-cache --rm  -t ${name}:${version} . --file ${dockerfiledir}/${dockerfilename} 
-        docker image ls
-        docker image history ${name}:${version}
-        docker system df -v               
-        docker image inspect ${name}:${version}  
-        docker container ls -a
+        # docker image ls
+        # docker image history ${name}:${version}
+        # docker system df -v               
+        # docker image inspect ${name}:${version}  
+        # docker container ls -a
         docker-compose --version
         # docker-compose ps
         ls -lai
