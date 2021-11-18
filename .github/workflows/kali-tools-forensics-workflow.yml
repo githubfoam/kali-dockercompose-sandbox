@@ -3,7 +3,7 @@ name: "kali docker compose CI workflow"
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   schedule:
       - cron:  '0 0 1 * *' ##execution of a task in the first minute of the month     
 
