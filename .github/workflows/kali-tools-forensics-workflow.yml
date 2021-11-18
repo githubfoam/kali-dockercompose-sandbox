@@ -42,7 +42,7 @@ jobs:
         docker-compose --version
         # docker-compose ps
         sudo docker-compose --file dockerfiles/kalilinux/docker-compose-kali.yml up -d
-        docker-compose ps
+        # sudo docker-compose ps
                   
 
   # ubuntu-2004-job:
