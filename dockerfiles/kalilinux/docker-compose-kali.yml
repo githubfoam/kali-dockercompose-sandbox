@@ -2,9 +2,9 @@ version: '3'
 
 services:
   kali-service:
-    build:
+    build: 
         context: .
-        dockerfile: ./dockerfiles/kali/ttoolkali
+        dockerfile: toolkali
     image: "kalicmd/latest"
     volumes:
       - /mnt/share-kali:/share
