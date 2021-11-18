@@ -41,8 +41,7 @@ jobs:
         # docker container ls -a
         docker-compose --version
         # docker-compose ps
-        ls -lai
-        sudo docker-compose --file dockerfiles/kalilinux/docker-compose.yml up -d
+        sudo docker-compose --file dockerfiles/kalilinux/docker-compose-kali.yml up -d
         # docker-compose ps
                   
 

@@ -2,7 +2,10 @@ version: '3'
 
 services:
   kali-service:
-    image: "kalicmd"
+    build:
+        context: .
+        dockerfile: ./dockerfiles/kali//toolkali
+    image: "kalicmd/latest"
     volumes:
       - /mnt/share-kali:/share
       - /mnt/share-kali/.bash_history:/root/.bash_history
