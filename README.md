@@ -1,6 +1,6 @@
 # kali-dockercompose-sandbox
 
-
+[![kali docker compose CI workflow](https://github.com/githubfoam/kali-dockercompose-sandbox/actions/workflows/kali-tools-forensics-workflow.yml/badge.svg?branch=master)](https://github.com/githubfoam/kali-dockercompose-sandbox/actions/workflows/kali-tools-forensics-workflow.yml)  
 ~~~~
 [vagrant@linuxsrv-01 kalilinux]$ hostnamectl
    Static hostname: linuxsrv-01
